@@ -13,7 +13,7 @@
 <body>
     <div class="row">
         <!-- <div class="col-md-4"></div> -->
-        <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+        <div class="col-md-4 d-flex justify-content-center">
             <div class="row w-75 rounded-3 shadow mt-5" id="calc_main">
                 <div class="row rounded-3 d-flex justify-content-center align-items-center" id="calc_top">
                     <div class="row p-5 rounded" id="screen">
@@ -29,70 +29,70 @@
                 </div>
                 <div class="row rounded-3" id="calc_bottom">
                     <div class="row calc_btn_section">
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle op_button" onclick="clearAll()">AC</button>
                         </div>
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle op_button" onclick="display('/')">/</button>
                         </div>                        
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle op_button" onclick="display('*')">X</button>
                         </div>                       
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                         <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle op_button" onclick="back()">⌫</button>
                         </div>
                     </div>
                     <div class="row calc_btn_section">
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle num_btn" onclick="display(1)">1</button>
                         </div>
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle num_btn" onclick="display(2)">2</button>
                         </div>                        
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle num_btn" onclick="display(3)">3</button>
                         </div>                        
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle op_button" onclick="display('-')">-</button>
                         </div>
                     </div> <div class="row calc_btn_section">
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle num_btn" onclick="display(4)">4</button>
                         </div>
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle num_btn" onclick="display(5)">5</button>
                         </div>                        
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle num_btn" onclick="display(6)">6</button>
                         </div>                        
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle op_button" onclick="display('+')">+</button>
                         </div>
                     </div> <div class="row calc_btn_section">
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle num_btn" onclick="display(7)">7</button>
                         </div>
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle num_btn" onclick="display(8)">8</button>
                         </div>                      
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                          <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle num_btn" onclick="display(9)">9</button>
                         </div>                       
-                        <div class="col-3 d-flex justify-content-center align-items-center">
+                         <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-primary btn-lg rounded-circle op_button" onclick="display('%')">%</button>
                         </div>
                     </div> <div class="row calc_btn_section pb-5 pt-2">
 
-                        <div class="col-6 d-flex p-0">
-                            <div class="col-6 d-flex justify-content-center align-items-center">
+                        <div class="col-md-6 d-flex p-0">
+                            <div class="col-md-6 d-flex justify-content-center align-items-center">
                                 <button class="btn btn-primary btn-lg rounded-circle num_btn" onclick="display(0)">0</button>
                             </div>
-                            <div class="col-6 d-flex justify-content-center align-items-center">
+                            <div class="col-md-6 d-flex justify-content-center align-items-center">
                                 <button class="btn btn-primary btn-lg rounded-circle num_btn" onclick="display('.')"  >.</button>
                             </div>
                         </div>
-                        <div class="col-6 d-flex justify-content-center align-items-center">
-                            <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center">
+                            <div class="col-md-12 d-flex justify-content-center align-items-center">
                                 <button class="btn btn-lg rounded-5 w-75 op_button" onclick="op()">=</button>
                             </div>
                         </div>
